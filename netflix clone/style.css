@@ -1,0 +1,256 @@
+body{
+    background-color: black;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(assets/images/background.jpg);
+    height: 103vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 125vw);
+    
+}
+
+.main .box{
+    height: 103vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+nav{
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    height: 95px;
+    align-items: center;
+}
+nav img{
+    width: 154px;
+    /* color: red; */
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 85%;
+    flex-direction: column;
+    align-items: center;
+    font-family:"Noto Sans", sans-serif;
+    gap: 20px;
+    padding: 10px;
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 46px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    /* size: 20px; */
+
+}
+
+.separation{
+    background-color: rgb(64 62 62);
+    height: 8px;
+}
+
+.btn{
+    padding: 8px 18px;
+    font-weight: bold;
+
+}
+
+.btn-red-sign{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.red-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 34px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.sep input{
+    padding: 14px 175px 16px 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(23, 23, 23, 0.3);
+    color: white;
+    border: 1px solid #5d5d5d;
+}  
+
+.eng{
+    padding: 8px 18px;
+    font-weight: bold;
+    background-color: rgb(23, 23, 23, 0.3);
+    color: white;
+    border: 1px solid #5d5d5d; 
+    /* gap: 20px; */
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 106px;
+    right: 0;
+    width: 428px;
+}
+
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    font-family:"Noto Sans", sans-serif;
+    gap: 9px;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 19px;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+section.third>.secImg video{
+    width: 22vw;
+    top: 80px;
+    left: 101px;
+    /* position: relative; */
+}
+
+h2{
+    text-align: center;
+    font-family:"Noto Sans", sans-serif;
+    font-size: 41px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 36px;
+    
+
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 10px;
+    max-width: 58vw;
+    margin: 21px auto;
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.subscribe{
+    font-weight: 350;
+    font-size: 19px;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    padding: 20px;
+}
+
+footer{
+    max-width: 90vw;
+    padding: 75px 0px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footer a{
+    color: rgba(133, 132, 132, 0.966);
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 40px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 11px;
+    gap: 30px;
+}
+
+
